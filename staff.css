@@ -1,0 +1,325 @@
+.header-container {
+  font-family: 'Brush Script MT', cursive;
+  width: 100%;
+}
+
+.top-bar {
+  background: linear-gradient(to right, #4d0000, #801a00, #4d0000);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  color: white;
+  border-top: 5px solid #710000;
+}
+
+.school-name {
+    font-size: 3rem; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 0;
+}
+
+.logo {
+    height: 170px;
+    width: auto;   
+}
+
+.motto-bar {
+  background-color: #930202;
+  padding: 5px 20px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #840303;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  background: linear-gradient(to bottom, #8b0000 0%, #ffffff 40%);
+}
+
+.nav-item {
+    background-color: hsl(350, 100%, 32%);
+    color: rgb(255, 255, 255);
+    padding: 30px 60px;
+    text-decoration: none;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    transition: transform 0.8s;
+    font-size: 40px;    
+    text-align: center;   
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center; 
+    padding: 80px;
+    background: linear-gradient(to bottom, #8b0000 0%, #ffffff 40%);
+    gap: 15px; 
+}
+
+.nav-item:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+}
+
+.nav-item.active {
+  background-color: rgb(255, 255, 255);
+  color: #803c00;
+  border: 2px solid #800000;
+}
+
+.main-title {
+    font-family: 'Great Vibes', cursive; /* Script font for the header */
+    text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 60px;
+    color: #4d1100;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital@0;1&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif; 
+    color: #333;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.personnel-container {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.image-cropper {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.image-cropper img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    object-position: center top; 
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    margin: 10px 0 5px 0;
+    font-weight: normal;
+}
+
+.title, .department {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2rem;
+    margin: 2px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap');
+
+/* Main Wrapper */
+.staff-directory-wrapper {
+    max-width: 1250px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 60px;
+}
+
+.staff-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 50px 20px; 
+    justify-items: center;
+}
+
+.staff-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+
+}
+
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.staff-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.staff-role {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #444;
+}
+
+.staff-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px 15px;
+    justify-items: center;
+    align-items: start;
+}
+
+@media (max-width: 1024px) {
+    .staff-grid-layout {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .staff-grid-layout {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+
+.gchs-footer {
+    background-color: #544846af; 
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-left {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+.footer-center {
+    flex: 2;
+    min-width: 300px;
+}
+
+.school-name {
+    font-family: 'Brush Script MT', cursive;;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 2px 2px 2px #000;
+}
+
+.motto {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8rem;
+    color: #a70b0b; 
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 60%;
+    border: 0.5px solid #666;
+    margin: 20px auto;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right {
+    flex: 1;
+    min-width: 150px;
+    text-align: right;
+}
+
+.initials {
+    font-family:'Brush Script MT', cursive;
+    font-size: 3.5rem;
+    color: #ad0808;
+    text-shadow: 1px 1px 2px #000;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-right {
+        text-align: center;
+    }
+}
